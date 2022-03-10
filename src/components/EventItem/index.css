@@ -1,0 +1,30 @@
+.event {
+  width: 270px;
+  margin-bottom: 20px;
+}
+
+.event-button {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+
+.selected-button {
+  border-radius: 8px;
+  border: 2px solid #2dd4bf;
+}
+
+.event-image {
+  height: 150px;
+  width: 250px;
+}
+
+.event-name {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.event-location {
+  font-size: 18px;
+}

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+.main-container {
+  background-color: #64748b;
+  width: 95vw;
+  max-width: 950px;
+  margin: 10px auto;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  grid-template-rows: 50px 1fr;
+}
+
+.events-heading {
+  padding: 10px 20px;
+}
+
+.events-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 20px;
+}
